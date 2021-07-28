@@ -1,5 +1,42 @@
+* {
+	box-sizing:  border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
 body{
 	background-color:  white;
+}
+section{
+	margin: 0px 5px 10px 5px;
+}
+
+#main-content{
+	margin: 0px 10px 0px 10px;
+}
+#content{
+	padding: 0px;
+}
+.row{
+	width: 100%;
+}
+.container{
+	width: 100%;
+}
+.container h1 {
+	margin-bottom: 30px;
+}
+.container section{
+	position: relative;
+	background-color: grey;
+	border: 2px black solid;
+	padding: 30px 10px 10px 10px;
+	text-align: left;
+}
+#chicken, #beef, #sushi {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	text-align: center;
+	font-size: 1.5em;
 }
 
 #header-nav {
@@ -8,7 +45,7 @@ body{
 	border: 2px black solid;
 }
 
-.container {
+.container-header {
 	margin-left: 10px;
 	margin-right: 10px;
 }
@@ -23,4 +60,28 @@ body{
 	margin-bottom: 0;
 	line-height: .75;
 	text-align: left;
+}
+#nav-list{
+	margin-top: 100px;
+	background-color: white;
+	border: 2px black solid;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+#collapsable-nav{
+	padding: 0px;
+}
+#nav-list{
+	margin: 0px;
+}
+li{
+	text-align: center;
+}
+li > a{
+	color: black;
+}
+hr{
+	margin: 0;
+	border: 1px black solid;
 }
